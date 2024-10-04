@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:CFCrayons-Regular;
+    src: url(./Fonts/CFCrayons-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gluten-VariableFont;
+    src: url(./Fonts/Gluten-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family:SuperBubble-Rpaj3;
+    src: url(./Fonts/SuperBubble-Rpaj3.ttf);
+}
+
+
+body{
+    background-color: #EEF1FF;
+
+}
+
+.ul{
+    list-style: none;
+    padding-left: 0px;
+    gap: 20px;
+
+}
+
+ul li a{
+    font-family:CFCrayons-Regular;
+    text-decoration: none;
+    color:#006989;
+    font-size: 1.3rem;
+}
+
+ul li a:hover{
+    color:#E88D67;
+}
+
+.logo-text{
+    font-size: 45px;
+    font-family:CFCrayons-Regular;
+    font-weight: 700;
+    color: #FFAD60;
+}
+
+.logo-img{
+    width: 60px;
+}
+
+.action-btn{
+    border: none;
+    font-family:CFCrayons-Regular;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #e59682;
+    transition: all 1s ;
+}
+
+.action-btn-a{
+    text-decoration: none;
+    color: #F1F0E8;
+}
+
+.action-btn:hover{
+    transform: scale(1.5);
+}
+
+/* Main */
+
+.hero-img{
+    width: 400px;
+    margin-bottom: 45px;
+}
+
+.hero-text{
+    font-family:CFCrayons-Regular;
+    font-size: 58px;
+    width: 500px;
+    color: #028391;
+    text-align:center;
+}
+
+.hero-span{
+    color:#ED7D31;
+    font-size: 4rem;
+}
+
+.card{
+    background-color: #DAEAF1;
+    border: 2px dashed #028391;
+}
+
+.card-title{
+    color:#FF8551;
+    font-family:Gluten-VariableFont;
+}
+
+.btn{
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+    font-family:Gluten-VariableFont;
+    background-color:salmon;
+    color: #EDF6E5;
+    transition: all 1s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.second-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+
+.sketchbook-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sketchbook-img{
+    width: 200px;
+    height: 180px;
+}
+
+
+.marker-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marker-img{
+    margin: 30px 10px;
+    width: 200px;
+
+}
+
+.brush-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.brush-img{
+    width:200px;
+    height: 160px;
+    margin-top: 20px;
+}
+
+.acrylic-paint-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acrylic-paint-img{
+    width:180px;
+    height: 150px;
+    margin-top: 30px;
+
+}
