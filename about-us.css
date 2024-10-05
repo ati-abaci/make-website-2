@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:CFCrayons-Regular;
+    src: url(./Fonts/CFCrayons-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gluten-VariableFont;
+    src: url(./Fonts/Gluten-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family:SuperBubble-Rpaj3;
+    src: url(./Fonts/SuperBubble-Rpaj3.ttf);
+}
+
+
+body{
+    background-color: #E9EFEC;
+
+}
+
+.ul{
+    list-style: none;
+    padding-left: 0px;
+    gap: 20px;
+
+}
+
+ul li a{
+    font-family:CFCrayons-Regular;
+    text-decoration: none;
+    color:#006989;
+    font-size: 1.3rem;
+}
+
+ul li a:hover{
+    color:#E88D67;
+}
+
+.logo-text{
+    font-size: 45px;
+    font-family:CFCrayons-Regular;
+    font-weight: 700;
+    color: #FFAD60;
+}
+
+.logo-img{
+    width: 60px;
+}
+
+.action-btn{
+    border: none;
+    font-family:CFCrayons-Regular;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #aadac8;
+    transition: all 1s ;
+}
+
+.action-btn-a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.action-btn:hover{
+    transform: scale(1.5);
+}
+
+/* Main */
+
+.hero-img{
+    width: 500px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    font-family:CFCrayons-Regular;
+    font-size: 58px;
+    width: 500px;
+    color: #028391;
+    text-align:center;
+}
+
+.hero-para{
+    font-family:CFCrayons-Regular;
+    font-size: 1.3rem;
+    text-align: justify;
+    text-align-last: center;
+
+}
+
+.abt-fmly-header{
+    font-family:CFCrayons-Regular;
+    color: crimson;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Emily-Quill-card{
+    background-color:#d3e8e4b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px dashed #006989;
+
+}
+
+.Emily-Quill-img{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.card-title{
+    font-family:CFCrayons-Regular;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: sandybrown;
+
+}
+
+.Emily-Quill-para{
+    font-family:CFCrayons-Regular;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Emily-Quill-para span{
+    color: crimson;
+}
+
+.oliver-inkwell-card{
+    background-color:#d3e8e4b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px dashed #006989;
+
+}
+
+.oliver-inkwell-img{
+    width: 200px;
+    height: 230px;
+    margin-top: 20px;
+}
+
+
+.oliver-inkwell-para{
+    font-family:CFCrayons-Regular;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.oliver-inkwell-para span{
+    color: crimson;
+}
+
+.Mickey-Scrivener-img{
+    width: 200px;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.charcoaly-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+
+}
+
