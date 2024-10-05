@@ -92,13 +92,42 @@ ul li a:hover{
     font-size: 4rem;
 }
 
+.second-row{
+    background-color:#f0f0eec1;
+    border-radius: 10px;
+    border: 2px  dashed #006989;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+.triangy{
+    width:100px;
+    margin-right: 20px;
+}
+
+.box-header-text{
+    font-size:3rem;
+    font-family:CFCrayons-Regular;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: ;
+}
+
+.cuby{
+    width: 100px;
+}
+
+
 .card{
-    background-color: #DAEAF1;
+    background-color:#dde6eb;
     border: 2px dashed #028391;
 }
 
 .card-title{
-    color:#FF8551;
+    color:#257180;
     font-family:Gluten-VariableFont;
 }
 
@@ -107,7 +136,7 @@ ul li a:hover{
     justify-content:center; 
     align-items:center;
     font-family:Gluten-VariableFont;
-    background-color:salmon;
+    background-color:#E68C3A;
     color: #EDF6E5;
     transition: all 1s;
 }
@@ -115,14 +144,6 @@ ul li a:hover{
 .btn:hover{
     transform: scale(1.1);
 }
-
-.second-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
 
 
 .sketchbook-card{
@@ -174,4 +195,91 @@ ul li a:hover{
     height: 150px;
     margin-top: 30px;
 
+}
+
+/* Footer */
+
+.footer-container{
+    background: url("./Images/footer.png") no-repeat center center/cover;
+    border-radius: 15px;
+    border: #006989 2px dashed;
+    height:550px;
+}
+
+.footer-row{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.first-column-footer{
+    margin-top: 30px;
+
+}
+
+
+.find-way-header{
+    font-family:CFCrayons-Regular ;
+    color: #E68C3A;
+}
+
+.social-media-header{
+    font-family:CFCrayons-Regular ;
+
+}
+
+.instagram-img{
+    width:20px;
+    height: 20px;
+}
+
+.thread-img{
+    width:20px;
+    height: 20px;
+
+}
+
+
+form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email-header{
+    font-family:CFCrayons-Regular ;
+    color: #3A6D8C;
+    font-size: 2rem;
+    
+}
+
+.email-label{
+    font-family:CFCrayons-Regular ;
+    margin-bottom: 5px;
+}
+
+.email-input{
+    font-family:CFCrayons-Regular ;
+    padding: 5px;
+    border-radius: 20px;
+    border: #028391 1px dashed;
+}
+
+.footer-button{
+    width: 100px;
+    margin-top: 5px;
+    font-family:CFCrayons-Regular;
+    padding:5px;
+    border-radius:30px;
+    border: none;
+    background-color: #eb965d;
+    color: #ffff;
+    transition: all 1s;
+}
+
+.footer-button:hover{
+    transform: scale(1.3);
 }
