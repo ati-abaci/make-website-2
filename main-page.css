@@ -200,7 +200,7 @@ ul li a:hover{
 /* Footer */
 
 .footer-container{
-    background: url("./Images/footer.png") no-repeat center center/cover;
+    background: url("./Images/footer.webp") no-repeat center center/cover;
     border-radius: 15px;
     border: #006989 2px dashed;
     height:550px;
